@@ -1,6 +1,10 @@
 <?php
 
 $token      = "433879290:AAHlvLradi_5q5IhAhrodcEd2JMcBOKsFr0";
-&website    = "https://api.telegram.org/bot".&token;
+$website    = "https://api.telegram.org/bot".&token;
+
+$getme      = file_get_contents($website."/getme");
+
+print_r($getme);
 
 ?>
