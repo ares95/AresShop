@@ -1,0 +1,9 @@
+require 'telegramAPI'
+
+token = "433879290:AAHlvLradi_5q5IhAhrodcEd2JMcBOKsFr0"
+api   = TelegramAPI.new token
+
+while true do
+    puts "oleeeeeee"
+  end
+end
