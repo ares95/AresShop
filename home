@@ -1,2 +1,12 @@
 <?php
+
+  $token = '433879290:AAHlvLradi_5q5IhAhrodcEd2JMcBOKsFr0';
+  $api = new \api\base\API($token);
+  
+  $request = new \api\base\Request($token, [
+    'method' => 'sendMessage',
+    'chat_id' => '<chat_id>',
+    'text' => 'Hello !!'
+]);
+
 ?>
